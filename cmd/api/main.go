@@ -5,8 +5,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/hoge/rock-paper-scissors/pb"
-	"github.com/hoge/rock-paper-scissors/service"
+	"github.com/TakuHyodo/rock-paper-scissors/pb"
+	"github.com/TakuHyodo/rock-paper-scissors/service"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

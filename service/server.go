@@ -5,11 +5,12 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/golang/protobuf/ptypes/timestamp"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hoge/rock-paper-scissors/pb"
-	"github.com/hoge/rock-paper-scissors/pkg"
+	"/Users/s1010/Documents/rock-paper-scissors/pb"
+	"/Users/s1010/Documents/rock-paper-scissors/pkg"
 )
 
 func init() {
