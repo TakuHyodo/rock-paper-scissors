@@ -5,10 +5,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/TakuHyodo/rock-paper-scissors/pb"
-	"github.com/TakuHyodo/rock-paper-scissors/service"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
+	"mygrpc/pb"
+	"mygrpc/service"
 )
 
 func main() {

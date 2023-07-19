@@ -1,6 +1,6 @@
 package pkg
 
-import "github.com/TakuHyodo/rock-paper-scissors/pb"
+import "mygrpc/pb"
 
 func EncodeHandShapes(n int32) pb.HandShapes {
 	switch n {
